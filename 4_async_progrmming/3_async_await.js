@@ -16,7 +16,7 @@ async function runner(){
         const result3 = await getPromise(3);
         console.log(result3);
     }catch(e){
-        console.log('---catch---')
+        console.log('---catch---');
         console.log(e);
     }finally{
         console.log('---finally---');
